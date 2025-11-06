@@ -10,7 +10,7 @@ function draw() {
   
   // Loop through each square’s position.
   for (let i = 0; i < numSquares; i++) {
-    // Calculate the x and y position so the squares move diagonally.
+    // Calculate the x and y position so the squares generate diagonally.
     let x = i * (width / numSquares);
     let y = i * (height / numSquares);
     
@@ -22,8 +22,6 @@ function draw() {
     
     // Set the fill color for each square.
     fill(r, g, b);
-    // Remove the border
-    noStroke();
     
     // Draw the square.
     rect(x, y, 40, 40);
