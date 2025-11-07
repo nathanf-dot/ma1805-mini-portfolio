@@ -1,0 +1,1 @@
+This sketch was made to explore simple movement and colour as a form of visual rhythm. Each square moves independently across the canvas, bouncing off the edges and creating shifting patterns through motion and colour. The goal was to experiment with how small variations in speed and position can generate a sense of energy and flow within a minimal digital composition.
