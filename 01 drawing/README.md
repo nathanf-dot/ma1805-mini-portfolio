@@ -1,0 +1,1 @@
+I had difficulty meeting the exact criteria for this prompt, and so i decided to showcase any sort of drawing ability using p5.js, in this prompt I wanted to create an image that made a gradient through the use of shapes namely squares going in a diagonal across the screen. abstractly this could represent the change of human emotion as the colour gradient symbolises this shift.
