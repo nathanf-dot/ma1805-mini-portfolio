@@ -18,16 +18,14 @@ function setup(){
 function draw(){
   background(255, 50); // This means the words fade out as opposed to disappeearing immediately 
 
-
-
-//I took this line of code from a prior example and thought of a way to incorporate it into my code.
-  let myText = "media evolution"; 
+  let myText = "media evolution"; //symbolic of the growth and change of social platforms over time
 
   fill(0);
   textSize(width/15);
   textAlign(CENTER, CENTER);
   text(myText, width / 2, height / 2);
 
+  //This creates a rectangle around the main text at the centre of the screen
   let safeZone = {
     x1: width / 2 - 150,
     x2: width / 2 + 150,
@@ -35,6 +33,7 @@ function draw(){
     y2: height / 2 + 50
   };
 
+  //This means that as the words generate around the main text, they will not generate underneath it
   function getOutsideCoords(side = "right"){
     let x, y;
     do{
@@ -47,7 +46,7 @@ function draw(){
 //This will generate the first group of words on the right hand side of the main text
   if (i < modernwrdsArray.length) { 
     let {x,y} = getOutsideCoords("right")
-    fill(0, 200, 0); //New words will appear as green
+    fill(0, 200, 0); //Modern words will appear as green
     stroke(100);
     console.log(i);
     textSize(20);

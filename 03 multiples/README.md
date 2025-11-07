@@ -1,0 +1,1 @@
+For this prompt, I wanted to reflect on the changes in the syntax used on social media platforms, so there is the comparison between media language in 2025 and 2015. With the central text again declaring exactly what I was intending on portraying.
